@@ -1,0 +1,50 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "whatsapp",
+    "whatsapp-bot",
+    "whatsapp-multi-device",
+    "whatsapp-bot-md",
+    "whatsapp-bot-multi-device",
+    "best-whatsapp-bot",
+    "whatsappbots",
+    "knightbot",
+    "knight-bot",
+    "mruniquehacker",
+    "mr-unique-hacker",
+    "knight-bot-github",
+    "knight-bot-md",
+    "knightbot-whatsapp-bot",
+    "github-whatsapp-bot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@types/node": "^18.0.6",
+    "@whiskeysockets/baileys": "^6.7.7",
+    "axios": "^1.7.7",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "gtts": "^0.2.1",
+    "jimp": "^0.16.13",
+    "link-preview-js": "^3.0.5",
+    "phin": "^3.7.1",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "request": "^2.88.2",
+    "sharp": "^0.32.6",
+    "tough-cookie": "^5.0.0",
+    "whatsapp-web.js": "^1.23.0",
+    "ws": "^8.17.1",
+    "yargs-parser": "^21.1.1"
+  }
+}
