@@ -48,7 +48,7 @@ For further customization and setup guidance, click the button below:
 
 <div align="center">
   <a href="https://youtube.com/@mr_unique_hacker">
-    <img src="https://img.shields.io/badge/Deploy-Youtube-red?style=for-the-badge" alt="YouTube Link"/>
+    <img src="https://img.shields.io/badge/Deploy-Tutorial-red?style=for-the-badge" alt="YouTube Link"/>
   </a>
 </div>
 
