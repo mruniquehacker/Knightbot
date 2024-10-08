@@ -48,7 +48,14 @@ For further customization and setup guidance, click the button below:
 
 <div align="center">
   <a href="https://youtube.com/@mr_unique_hacker">
-    <img src="https://img.shields.io/badge/Deploy-Tutorial-red?style=for-the-badge" alt="YouTube Link"/>
+    <img src="https://img.shields.io/youtube/views/kdPkaCTdxBU?style=social" alt="YouTube Link" style="height:28px; vertical-align:middle;">
+    <img src="https://img.shields.io/badge/Deploy-Tutorial-red?style=for-the-badge&logo=youtube" alt="YouTube Link" style="vertical-align:middle;">
+  </a>
+  &nbsp; <!-- Space between buttons -->
+  <a href="https://bot-hosting.net/?aff=1068419752923508776">
+    <button style="background-color: #4CAF50; color: white; padding: 10px 24px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border: none; border-radius: 8px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);">
+      Deploy on Panel
+    </button>
   </a>
 </div>
 
