@@ -36,6 +36,7 @@
     "fs-extra": "^11.2.0",
     "gtts": "^0.2.1",
     "jimp": "^0.16.13",
+    "libsignal": "^2.0.1",
     "link-preview-js": "^3.0.5",
     "phin": "^3.7.1",
     "qrcode": "^1.5.4",
