@@ -54,6 +54,19 @@ For further customization and setup guidance, click the button below:
 
 ---
 
+### Join Us
+
+<div align="center">
+  <a href="https://t.me/+3QhFUZHx-nhhZmY1">
+    <img src="https://img.shields.io/badge/Join%20Telegram-blue?style=for-the-badge" alt="Join Telegram"/>
+  </a>
+  <a href="https://whatsapp.com/channel/0029Va90zAnIHphOuO8Msp3A">
+    <img src="https://img.shields.io/badge/Join%20WhatsApp-green?style=for-the-badge" alt="Join WhatsApp"/>
+  </a>
+</div>
+
+---
+
 ## ⚙️ Features
 
 - **Tag all group members** with the `.tagall` command
