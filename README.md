@@ -48,20 +48,6 @@ For further customization and setup guidance, click the button below:
 
 <div align="center">
   <a href="https://youtube.com/@mr_unique_hacker">
-    <img src="https://img.shields.io/badge/YouTube-Deploy Tutorial-red?style=for-the-badge&logo=youtube" alt="YouTube Link"/>
-  </a>
-  <a href="https://bot-hosting.net/?aff=1068419752923508776">
-    <img src="https://img.shields.io/badge/Deploy on Panel-blue?style=for-the-badge" alt="Deploy on Panel"/>
-  </a>
-</div>
-
-
----
-
-### Join Us
-
-<div align="center">
-  <a href="https://youtube.com/@mr_unique_hacker">
     <img src="https://img.shields.io/badge/YouTube-Deploy Tutorial-dc3545?style=for-the-badge&logo=youtube" alt="YouTube Link"/>
   </a>
   <a href="https://bot-hosting.net/?aff=1068419752923508776">
@@ -69,6 +55,20 @@ For further customization and setup guidance, click the button below:
   </a>
 </div>
 
+
+
+---
+
+### Join Us
+
+<div align="center">
+  <a href="https://t.me/+3QhFUZHx-nhhZmY1">
+    <img src="https://img.shields.io/badge/Join%20Telegram-0078E7?style=for-the-badge&logo=telegram&logoColor=white" alt="Join Telegram"/>
+  </a>
+  <a href="https://whatsapp.com/channel/0029Va90zAnIHphOuO8Msp3A">
+    <img src="https://img.shields.io/badge/Join%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Join WhatsApp"/>
+  </a>
+</div>
 
 ---
 
