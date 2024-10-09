@@ -47,7 +47,7 @@ Deploy the bot and easily connect it to your WhatsApp account by scanning the QR
 For further customization and setup guidance, click the button below:
 
 <div align="center">
-  <a href="https://youtube.com/@mr_unique_hacker">
+  <a href="https://youtu.be/OYyaXzeNayA">
     <img src="https://img.shields.io/badge/Deploy Tutorial-dc3545?style=for-the-badge&logo=youtube" alt="YouTube Link"/>
   </a>
   <a href="https://bot-hosting.net/?aff=1068419752923508776">
