@@ -1,13 +1,14 @@
 const settings = require('../settings');
 const fs = require('fs');
+const path = require('path');
 
 async function helpCommand(sock, chatId, channelLink) {
     const helpMessage = `
 ╔═══════════════════╗
-   *🤖 ${settings.botName || 'WhatsApp Bot'}*  
+   *🤖 ${settings.botName || 'KnightBot-MD'}*  
    Version: *${settings.version || '1.0.0'}*
-   by ${settings.botOwner || 'Unknown Owner'}
-   YT : ${ytch}
+   by ${settings.botOwner || 'Mr Unique Hacker'}
+   YT : ${global.ytch}
 ╚═══════════════════╝
 
 *Available Commands:*
@@ -53,46 +54,65 @@ async function helpCommand(sock, chatId, channelLink) {
 ║ ➤ .guess <letter>
 ║ ➤ .trivia
 ║ ➤ .answer <answer>
-║ ➤ .dare
 ║ ➤ .truth
+║ ➤ .dare
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-👥 *Group Management*:
-║ ➤ .tagall
-║ ➤ .tag <message>
-╚═══════════════════╝
-
-╔═══════════════════╗
-🎉 *Fun Commands*:
+🎯 *Fun Commands*:
 ║ ➤ .compliment @user
 ║ ➤ .insult @user
+║ ➤ .tag <message>
+║ ➤ .tagall
 ╚═══════════════════╝
 
-╔═══════════════════╗
-🏆 *Other*:
-║ ➤ .topmembers
-╚═══════════════════╝
-
-${channelLink ? `🔗 *Join our Channel:* \n${channelLink}` : 'No channel link available'}
-
-@${settings.botName || 'KnightBot'} 2024 v${settings.version || '1.0.0'}
-`;
+Join our channel for updates:`;
 
     try {
-        const imagePath = './assets/bot_image.jpg';
+        const imagePath = path.join(__dirname, '../assets/bot_image.jpg');
+        
         if (fs.existsSync(imagePath)) {
             const imageBuffer = fs.readFileSync(imagePath);
-            await sock.sendMessage(chatId, { 
-                image: imageBuffer, 
-                caption: helpMessage 
+            
+            await sock.sendMessage(chatId, {
+                image: imageBuffer,
+                caption: helpMessage,
+                contextInfo: {
+                    forwardingScore: 999,
+                    isForwarded: true,
+                    forwardedNewsletterMessageInfo: {
+                        newsletterJid: '120363161513685998@newsletter',
+                        newsletterName: 'KnightBot MD powered by Mr Unique Hacker',
+                        serverMessageId: -1
+                    },
+                    externalAdReply: {
+                        title: 'KnightBot MD',
+                        body: 'Menu',
+                        thumbnailUrl: 'https://i.imgur.com/trP1VbB.png',
+                        sourceUrl: channelLink,
+                        mediaType: 1,
+                        renderLargerThumbnail: true
+                    }
+                }
             });
         } else {
-            await sock.sendMessage(chatId, { text: helpMessage });
+            console.error('Bot image not found at:', imagePath);
+            await sock.sendMessage(chatId, { 
+                text: helpMessage,
+                contextInfo: {
+                    forwardingScore: 999,
+                    isForwarded: true,
+                    forwardedNewsletterMessageInfo: {
+                        newsletterJid: '120363161513685998@newsletter',
+                        newsletterName: 'KnightBot MD powered by Mr Unique Hacker',
+                        serverMessageId: -1
+                    } 
+                }
+            });
         }
-
     } catch (error) {
-        await sock.sendMessage(chatId, { text: 'An error occurred while sending the help message.' });
+        console.error('Error in help command:', error);
+        await sock.sendMessage(chatId, { text: helpMessage });
     }
 }
 
