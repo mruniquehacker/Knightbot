@@ -44,6 +44,8 @@ async function helpCommand(sock, chatId, channelLink) {
 ║ ➤ .warn @user
 ║ ➤ .antilink
 ║ ➤ .clear
+║ ➤ .tag <message>
+║ ➤ .tagall
 ╚═══════════════════╝
 
 ╔═══════════════════╗
@@ -62,8 +64,6 @@ async function helpCommand(sock, chatId, channelLink) {
 🎯 *Fun Commands*:
 ║ ➤ .compliment @user
 ║ ➤ .insult @user
-║ ➤ .tag <message>
-║ ➤ .tagall
 ╚═══════════════════╝
 
 Join our channel for updates:`;
